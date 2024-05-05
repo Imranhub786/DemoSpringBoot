@@ -12,7 +12,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public String Hello() {
 		return "My First SpringBoot Application";
 	}
